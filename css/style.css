@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background: #1B2029;
+    color: white;
+    font-weight: 500;
+    display: flex;
+    min-height: 100vh;
+    min-width: 100vw;
+}
+
+main {
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+main form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #6C63FF;
+    padding: 8vw;
+    border-radius: 15px;
+}
+
+main form label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main form label span {
+    font-size: 1.1rem;
+    margin-top: 2rem;
+}
+
+main form input[type="submit"] {
+    cursor: pointer;
+    width: 50%;
+    margin-top: 4rem;
+    background: #6C63FF;
+    color: white;
+    font-size: 1.1rem;
+    border-radius: 15px;
+}
+
+section{
+    width: 50vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+section div{
+    background-color: #6C63FF;
+    padding: 1rem;
+    border-radius: 15px;
+}
+
+section #Vantagens{
+    background-color: #4c43f8;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
